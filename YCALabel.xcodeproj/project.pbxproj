@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CABD0A11CC77AC600F02B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0A01CC77AC600F02B10 /* main.m */; };
+		2CABD0A41CC77AC600F02B10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0A31CC77AC600F02B10 /* AppDelegate.m */; };
+		2CABD0A71CC77AC600F02B10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0A61CC77AC600F02B10 /* ViewController.m */; };
+		2CABD0AA1CC77AC600F02B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A81CC77AC600F02B10 /* Main.storyboard */; };
+		2CABD0AC1CC77AC600F02B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AB1CC77AC600F02B10 /* Assets.xcassets */; };
+		2CABD0AF1CC77AC600F02B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AD1CC77AC600F02B10 /* LaunchScreen.storyboard */; };
+		2CABD0BA1CC77AC600F02B10 /* YCALabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0B91CC77AC600F02B10 /* YCALabelTests.m */; };
+		2CABD0C51CC77AC600F02B10 /* YCALabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0C41CC77AC600F02B10 /* YCALabelUITests.m */; };
+		2CABD0D41CC77B1500F02B10 /* YCALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABD0D31CC77B1500F02B10 /* YCALabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CABD0B61CC77AC600F02B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CABD0941CC77AC600F02B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CABD09B1CC77AC600F02B10;
+			remoteInfo = YCALabel;
+		};
+		2CABD0C11CC77AC600F02B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CABD0941CC77AC600F02B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CABD09B1CC77AC600F02B10;
+			remoteInfo = YCALabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CABD09C1CC77AC600F02B10 /* YCALabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCALabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CABD0A01CC77AC600F02B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CABD0A21CC77AC600F02B10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CABD0A31CC77AC600F02B10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CABD0A51CC77AC600F02B10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CABD0A61CC77AC600F02B10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CABD0A91CC77AC600F02B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CABD0AB1CC77AC600F02B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CABD0AE1CC77AC600F02B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CABD0B01CC77AC600F02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CABD0B51CC77AC600F02B10 /* YCALabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCALabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CABD0B91CC77AC600F02B10 /* YCALabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCALabelTests.m; sourceTree = "<group>"; };
+		2CABD0BB1CC77AC600F02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CABD0C01CC77AC600F02B10 /* YCALabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCALabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CABD0C41CC77AC600F02B10 /* YCALabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCALabelUITests.m; sourceTree = "<group>"; };
+		2CABD0C61CC77AC600F02B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CABD0D21CC77B1500F02B10 /* YCALabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCALabel.h; sourceTree = "<group>"; };
+		2CABD0D31CC77B1500F02B10 /* YCALabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCALabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CABD0991CC77AC600F02B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0B21CC77AC600F02B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0BD1CC77AC600F02B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CABD0931CC77AC600F02B10 = {
+			isa = PBXGroup;
+			children = (
+				2CABD09E1CC77AC600F02B10 /* YCALabel */,
+				2CABD0B81CC77AC600F02B10 /* YCALabelTests */,
+				2CABD0C31CC77AC600F02B10 /* YCALabelUITests */,
+				2CABD09D1CC77AC600F02B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CABD09D1CC77AC600F02B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD09C1CC77AC600F02B10 /* YCALabel.app */,
+				2CABD0B51CC77AC600F02B10 /* YCALabelTests.xctest */,
+				2CABD0C01CC77AC600F02B10 /* YCALabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CABD09E1CC77AC600F02B10 /* YCALabel */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0A21CC77AC600F02B10 /* AppDelegate.h */,
+				2CABD0A31CC77AC600F02B10 /* AppDelegate.m */,
+				2CABD0A51CC77AC600F02B10 /* ViewController.h */,
+				2CABD0A61CC77AC600F02B10 /* ViewController.m */,
+				2CABD0A81CC77AC600F02B10 /* Main.storyboard */,
+				2CABD0AB1CC77AC600F02B10 /* Assets.xcassets */,
+				2CABD0AD1CC77AC600F02B10 /* LaunchScreen.storyboard */,
+				2CABD0B01CC77AC600F02B10 /* Info.plist */,
+				2CABD09F1CC77AC600F02B10 /* Supporting Files */,
+				2CABD0D21CC77B1500F02B10 /* YCALabel.h */,
+				2CABD0D31CC77B1500F02B10 /* YCALabel.m */,
+			);
+			path = YCALabel;
+			sourceTree = "<group>";
+		};
+		2CABD09F1CC77AC600F02B10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0A01CC77AC600F02B10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CABD0B81CC77AC600F02B10 /* YCALabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0B91CC77AC600F02B10 /* YCALabelTests.m */,
+				2CABD0BB1CC77AC600F02B10 /* Info.plist */,
+			);
+			path = YCALabelTests;
+			sourceTree = "<group>";
+		};
+		2CABD0C31CC77AC600F02B10 /* YCALabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0C41CC77AC600F02B10 /* YCALabelUITests.m */,
+				2CABD0C61CC77AC600F02B10 /* Info.plist */,
+			);
+			path = YCALabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CABD09B1CC77AC600F02B10 /* YCALabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CABD0C91CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabel" */;
+			buildPhases = (
+				2CABD0981CC77AC600F02B10 /* Sources */,
+				2CABD0991CC77AC600F02B10 /* Frameworks */,
+				2CABD09A1CC77AC600F02B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCALabel;
+			productName = YCALabel;
+			productReference = 2CABD09C1CC77AC600F02B10 /* YCALabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CABD0B41CC77AC600F02B10 /* YCALabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CABD0CC1CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabelTests" */;
+			buildPhases = (
+				2CABD0B11CC77AC600F02B10 /* Sources */,
+				2CABD0B21CC77AC600F02B10 /* Frameworks */,
+				2CABD0B31CC77AC600F02B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CABD0B71CC77AC600F02B10 /* PBXTargetDependency */,
+			);
+			name = YCALabelTests;
+			productName = YCALabelTests;
+			productReference = 2CABD0B51CC77AC600F02B10 /* YCALabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CABD0BF1CC77AC600F02B10 /* YCALabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CABD0CF1CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabelUITests" */;
+			buildPhases = (
+				2CABD0BC1CC77AC600F02B10 /* Sources */,
+				2CABD0BD1CC77AC600F02B10 /* Frameworks */,
+				2CABD0BE1CC77AC600F02B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CABD0C21CC77AC600F02B10 /* PBXTargetDependency */,
+			);
+			name = YCALabelUITests;
+			productName = YCALabelUITests;
+			productReference = 2CABD0C01CC77AC600F02B10 /* YCALabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CABD0941CC77AC600F02B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yan;
+				TargetAttributes = {
+					2CABD09B1CC77AC600F02B10 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2U3RPF8KA3;
+					};
+					2CABD0B41CC77AC600F02B10 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2U3RPF8KA3;
+						TestTargetID = 2CABD09B1CC77AC600F02B10;
+					};
+					2CABD0BF1CC77AC600F02B10 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2U3RPF8KA3;
+						TestTargetID = 2CABD09B1CC77AC600F02B10;
+					};
+				};
+			};
+			buildConfigurationList = 2CABD0971CC77AC600F02B10 /* Build configuration list for PBXProject "YCALabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CABD0931CC77AC600F02B10;
+			productRefGroup = 2CABD09D1CC77AC600F02B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CABD09B1CC77AC600F02B10 /* YCALabel */,
+				2CABD0B41CC77AC600F02B10 /* YCALabelTests */,
+				2CABD0BF1CC77AC600F02B10 /* YCALabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CABD09A1CC77AC600F02B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CABD0AF1CC77AC600F02B10 /* LaunchScreen.storyboard in Resources */,
+				2CABD0AC1CC77AC600F02B10 /* Assets.xcassets in Resources */,
+				2CABD0AA1CC77AC600F02B10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0B31CC77AC600F02B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0BE1CC77AC600F02B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CABD0981CC77AC600F02B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CABD0A71CC77AC600F02B10 /* ViewController.m in Sources */,
+				2CABD0A41CC77AC600F02B10 /* AppDelegate.m in Sources */,
+				2CABD0D41CC77B1500F02B10 /* YCALabel.m in Sources */,
+				2CABD0A11CC77AC600F02B10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0B11CC77AC600F02B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CABD0BA1CC77AC600F02B10 /* YCALabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CABD0BC1CC77AC600F02B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CABD0C51CC77AC600F02B10 /* YCALabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CABD0B71CC77AC600F02B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CABD09B1CC77AC600F02B10 /* YCALabel */;
+			targetProxy = 2CABD0B61CC77AC600F02B10 /* PBXContainerItemProxy */;
+		};
+		2CABD0C21CC77AC600F02B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CABD09B1CC77AC600F02B10 /* YCALabel */;
+			targetProxy = 2CABD0C11CC77AC600F02B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CABD0A81CC77AC600F02B10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CABD0A91CC77AC600F02B10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CABD0AD1CC77AC600F02B10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CABD0AE1CC77AC600F02B10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CABD0C71CC77AC600F02B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CABD0C81CC77AC600F02B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CABD0CA1CC77AC600F02B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCALabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CABD0CB1CC77AC600F02B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCALabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CABD0CD1CC77AC600F02B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCALabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCALabel.app/YCALabel";
+			};
+			name = Debug;
+		};
+		2CABD0CE1CC77AC600F02B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCALabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCALabel.app/YCALabel";
+			};
+			name = Release;
+		};
+		2CABD0D01CC77AC600F02B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCALabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCALabel;
+			};
+			name = Debug;
+		};
+		2CABD0D11CC77AC600F02B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCALabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yca.YCALabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCALabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CABD0971CC77AC600F02B10 /* Build configuration list for PBXProject "YCALabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CABD0C71CC77AC600F02B10 /* Debug */,
+				2CABD0C81CC77AC600F02B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CABD0C91CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CABD0CA1CC77AC600F02B10 /* Debug */,
+				2CABD0CB1CC77AC600F02B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CABD0CC1CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CABD0CD1CC77AC600F02B10 /* Debug */,
+				2CABD0CE1CC77AC600F02B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CABD0CF1CC77AC600F02B10 /* Build configuration list for PBXNativeTarget "YCALabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CABD0D01CC77AC600F02B10 /* Debug */,
+				2CABD0D11CC77AC600F02B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CABD0941CC77AC600F02B10 /* Project object */;
+}
